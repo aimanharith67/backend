@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_title_bosses",
+  "info": {
+    "name": "boss",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "adminname": {
+      "type": "string"
+    },
+    "adminposition": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_title_tech_skills",
+  "info": {
+    "name": "tech_skills",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "frontend": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.frontend"
+    },
+    "backend": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.backend"
+    },
+    "language": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.language"
+    },
+    "database": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.database"
+    },
+    "version": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.version"
+    },
+    "hosting": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.hosting"
+    }
+  }
+}

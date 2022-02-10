@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_title_useds",
+  "info": {
+    "name": "used",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

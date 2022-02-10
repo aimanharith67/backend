@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_card_media",
+  "info": {
+    "name": "Media",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "text": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_teches",
+  "info": {
+    "name": "portfolio_tech",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "frontend": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.frontend"
+    },
+    "backend": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.backend"
+    },
+    "version": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.version"
+    },
+    "database": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.database"
+    },
+    "hosting": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.hosting"
+    },
+    "language": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.language"
+    }
+  }
+}

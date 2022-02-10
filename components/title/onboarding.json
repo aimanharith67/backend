@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_title_onboardings",
+  "info": {
+    "name": "onboarding",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "input": {
+      "type": "string"
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "subs": {
+      "type": "text"
+    },
+    "checked": {
+      "type": "boolean"
+    }
+  }
+}

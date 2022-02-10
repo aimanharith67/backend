@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_carts",
+  "info": {
+    "name": "add-cart",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "shirt": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "priceTag": {
+      "type": "decimal"
+    },
+    "quant": {
+      "type": "decimal"
+    }
+  }
+}

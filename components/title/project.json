@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_title_projects",
+  "info": {
+    "name": "project",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.details"
+    },
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "mini": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.used"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

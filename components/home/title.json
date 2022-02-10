@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_titles",
+  "info": {
+    "name": "title",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poc3s",
+  "info": {
+    "name": "poc3",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dashboard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.dashboard"
+    },
+    "maintitle": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.main",
+      "required": true
+    }
+  }
+}

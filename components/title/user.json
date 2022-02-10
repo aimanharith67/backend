@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_title_users",
+  "info": {
+    "name": "user",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "chiefname": {
+      "type": "string"
+    },
+    "chiefposition": {
+      "type": "string"
+    }
+  }
+}

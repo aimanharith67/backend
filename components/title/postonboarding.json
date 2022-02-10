@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_title_postonboardings",
+  "info": {
+    "name": "postonboarding",
+    "icon": "campground",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "input": {
+      "type": "text"
+    },
+    "subs": {
+      "type": "richtext"
+    }
+  }
+}

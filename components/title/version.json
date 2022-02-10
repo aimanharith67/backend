@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_title_versions",
+  "info": {
+    "name": "version",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

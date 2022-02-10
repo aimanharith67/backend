@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_title_mains",
+  "info": {
+    "name": "main",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "mainname": {
+      "type": "string"
+    },
+    "mainposition": {
+      "type": "string"
+    }
+  }
+}

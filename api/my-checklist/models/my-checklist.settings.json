@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_checklists",
+  "info": {
+    "name": "MyChecklist",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "checklist": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.checklist"
+    }
+  }
+}

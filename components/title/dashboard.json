@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_title_dashboards",
+  "info": {
+    "name": "dashboard",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list1": {
+      "type": "string"
+    },
+    "list2": {
+      "type": "string"
+    },
+    "list3": {
+      "type": "string"
+    },
+    "list4": {
+      "type": "string"
+    }
+  }
+}

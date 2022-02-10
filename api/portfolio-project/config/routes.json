@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/portfolio-projects",
+      "handler": "portfolio-project.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/portfolio-projects/count",
+      "handler": "portfolio-project.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/portfolio-projects/:id",
+      "handler": "portfolio-project.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/portfolio-projects",
+      "handler": "portfolio-project.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/portfolio-projects/:id",
+      "handler": "portfolio-project.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/portfolio-projects/:id",
+      "handler": "portfolio-project.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

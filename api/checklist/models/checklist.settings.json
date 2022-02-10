@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checklists",
+  "info": {
+    "name": "checklist",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.onboarding"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header"
+    }
+  }
+}

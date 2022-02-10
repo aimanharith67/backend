@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_title_details",
+  "info": {
+    "name": "details",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    }
+  }
+}

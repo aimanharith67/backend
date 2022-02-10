@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_projects",
+  "info": {
+    "name": "portfolio_project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.project"
+    }
+  }
+}

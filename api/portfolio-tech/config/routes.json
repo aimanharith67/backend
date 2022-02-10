@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/portfolio-teches",
+      "handler": "portfolio-tech.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/portfolio-teches/count",
+      "handler": "portfolio-tech.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/portfolio-teches/:id",
+      "handler": "portfolio-tech.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/portfolio-teches",
+      "handler": "portfolio-tech.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/portfolio-teches/:id",
+      "handler": "portfolio-tech.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/portfolio-teches/:id",
+      "handler": "portfolio-tech.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

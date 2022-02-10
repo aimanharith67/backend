@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Message": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.message"
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.media"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.header"
+    }
+  }
+}

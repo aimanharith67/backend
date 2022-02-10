@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/email",
+      "handler": "Email.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/poc-3-s",
+      "handler": "poc3.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/poc-3-s/count",
+      "handler": "poc3.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/poc-3-s/:id",
+      "handler": "poc3.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/poc-3-s",
+      "handler": "poc3.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/poc-3-s/:id",
+      "handler": "poc3.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/poc-3-s/:id",
+      "handler": "poc3.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
