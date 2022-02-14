@@ -1,4 +1,3 @@
-// Prod
 
 // Local
 // module.exports = ({ env }) => ({
